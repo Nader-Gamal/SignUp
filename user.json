@@ -1,0 +1,44 @@
+{
+  "user": [
+    {
+      "firstName": "Nader",
+      "lastName": "Gamal",
+      "email": "nadergamal@gmail.com",
+      "password": "Nader123"
+    },
+    {
+      "firstName": "Hatem",
+      "lastName": "Gamal",
+      "email": "hatemgamal@gmail.com",
+      "password": "Nader123"
+    },
+    {
+      "id": "9f03",
+      "firstName": "mohra",
+      "lastName": "tharwatq",
+      "email": "mohra@gmail.com",
+      "password": "Nader3210"
+    },
+    {
+      "id": "2aa4",
+      "firstName": "mohra",
+      "lastName": "tharwat",
+      "email": "mphra@gmail.com",
+      "password": "Mohra1123"
+    },
+    {
+      "id": "f026",
+      "firstName": "nader",
+      "lastName": "gamal",
+      "email": "nadergamal3100@gmail.com",
+      "password": "Nader310"
+    },
+    {
+      "id": "d118",
+      "firstName": "Nader",
+      "lastName": "Gamal",
+      "email": "nadergamal30@gmail.com",
+      "password": "Nader310"
+    }
+  ]
+}

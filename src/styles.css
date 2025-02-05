@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --primary-red: hsl(0, 100%, 74%);
+  --secondary-green: hsl(154, 59%, 51%);
+  --accent-blue: hsl(248, 32%, 49%);
+  --dark-gray: hsl(249, 10%, 26%);
+  --light-gray: hsl(246, 25%, 77%);
+
+  --font-size: 16px;
+  --light: 400;
+  --normal: 500;
+  --bold: 600;
+  --bolder: 700;
+  --font-family: "Poppins", serif;
+}
+
+.primary-red {
+  color: var(--primary-red);
+}
+
+.secondary-green {
+  color: var(--secondary-green);
+}
+.green-background {
+  background-color: var(--secondary-green);
+}
+
+.accent-blue {
+  color: var(--accent-blue);
+}
+.accent-background {
+  background-color: var(--accent-blue);
+}
+
+.dark-gray {
+  color: var(--dark-gray);
+}
+
+.light-gray {
+  color: var(--light-gray);
+}
+
+.font-size {
+  font-size: var(--font-size);
+}
+.light {
+  font-weight: var(--light);
+}
+.normal {
+  font-weight: var(--normal);
+}
+.bold {
+  font-weight: var(--bold);
+}
+.bolder {
+  font-weight: var(--bolder);
+}

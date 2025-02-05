@@ -1,0 +1,88 @@
+.body {
+  font-family: "Poppins", sans-serif;
+  font-size: var(--font-size);
+  color: var(--dark-gray);
+  background-image: url(../../../assets/images/bg-intro-desktop.png),
+    linear-gradient(hsl(0, 100%, 74%), hsl(0, 100%, 74%));
+  background-size: cover;
+  background-position: center;
+  padding: 3rem 1rem;
+  height: auto; /* Allow height to adjust to content */
+  min-height: 100vh; /* Ensure background covers at least the viewport height */
+  overflow: visible; /* Allow scrolling */
+  overflow-x: hidden;
+}
+
+.header .descripton {
+  font-family: var(--font-family);
+  font-weight: bold;
+}
+
+.descripton {
+  font-weight: var(--normal);
+  font-size: var(--font-size);
+}
+.offer {
+  box-shadow: 0px 10px 10px -2px rgba(0, 0, 0, 0.3);
+}
+.btn:hover {
+  background-color: var(--secondary-green);
+  opacity: 0.8;
+}
+.terms {
+  font-size: 12px;
+}
+.warning-icon {
+  top: 36%;
+  right: 15px;
+  transform: translateY(-50%);
+  color: var(--primary-red);
+}
+.warning-message {
+  color: var(--primary-red);
+  font-weight: var(--light);
+  font-style: italic;
+}
+/* reset defualt style */
+p {
+  margin-top: 0;
+  margin-bottom: 0rem;
+}
+.form-floating > .form-control:not(:placeholder-shown) {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+.form-control:focus {
+  border-color: #000;
+  box-shadow: none;
+}
+
+.form-control.is-invalid {
+  border: 2px solid var(--primary-red);
+  background-image: none;
+}
+
+.warning-message {
+  color: var(--primary-red);
+}
+
+.form-control.ng-invalid.ng-touched {
+  border-color: var(--primary-red);
+}
+.error-placeholder::placeholder {
+  color: var(--primary-red);
+  opacity: 1;
+  font-style: italic;
+}
+
+/* responsive */
+/* For large screens (desktop) */
+@media (min-width: 995px) {
+}
+
+/* For mobile screens */
+@media (max-width: 994px) {
+  .text {
+    text-align: center;
+  }
+}
