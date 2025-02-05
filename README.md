@@ -1,27 +1,57 @@
-# SignUpForm
+# SignUp Task
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
+## Description
+This project is a web-based form built with Angular that allows users to sign up while validating their inputs. The form stores user data in a JSON file and ensures that email addresses are unique.
 
-## Development server
+## Features
+- Reactive form validation
+- Email uniqueness check before submission
+- Error handling and user feedback
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## Installation and Setup
+### **1. Clone the Repository**
+```sh
+git clone https://https://github.com/Nader-Gamal/SignUp.git
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### **2. Install Dependencies**
+Make sure you have **Node.js** and **Angular CLI** installed. Then, run:
+```sh
+npm install
+```
 
-## Build
+### **3. Run the JSON Server**
+This project uses a local JSON server to store user data. To start it, install `json-server` globally if you haven’t already:
+```sh
+npm install -g json-server
+```
+Then, run:
+```sh
+json-server --watch db.json --port 3000
+```
+This will create a fake REST API that listens on `http://localhost:3000/user`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### **4. Run the Angular Development Server**
+To start the Angular app, use:
+```sh
+ng serve
+```
+Then open [http://localhost:4200](http://localhost:4200) in your browser.
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## API Endpoints (JSON Server)
+| Method | Endpoint      | Description             |
+|--------|--------------|-------------------------|
+| GET    | /user        | Get all users           |
+| POST   | /user        | Add a new user          |
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## Notes
+- Ensure `users.json` contains the correct structure before running `json-server`.
+- Modify `angular.json` if needed to match the correct `outputPath` when deploying.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
